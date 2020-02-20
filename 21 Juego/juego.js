@@ -74,13 +74,13 @@ class Juego extends Baraja {
       })
 
   if (carta == 21) {
-      console.log('Ganadoooooor')
+      console.log('Ganaste')
   } else if (carta < 21) {
-      console.log('Pide una carta otra vez')
+      console.log('Pide de nuevo una carta')
   } else if (carta > 21) {
-      console.log('Perdiste intentalo de nuevo ')
+      console.log('Perdiste ')
   }
-  console.log('el valor de la suma es'+ carta);
+  console.log('El resultado es'+ carta);
     
   }
 }
