@@ -85,16 +85,3 @@ class Juego extends Baraja {
   }
 }
 
-class Jugador extends Baraja{
-  nuevasCartas=[];
-  contador=0;
-  pedir(){
-
-    this.nuevasCartas.push(this.mazo[this.contador].valor);
-        this.contador++;
-        this.validar()
-        return this.nuevas
-
-    
-  }
-}
